@@ -70,7 +70,7 @@
                     why = "forced via ?bug=" + forced;
                 } else if (!key) {
                     why = "user-agent is not a PlayStation 4";
-                    setState("⚠️ Это не PS4", "bad");
+                    setState("Это не PS4", "bad");
                     return;
                 } else if (fwnum <= 1202) {
                     bug = "lapse"; 
@@ -80,7 +80,7 @@
                     why = key + " >= 12.50";
                 } else {
                     why = key + " -- no working bug";
-                    setState("❌ Несовместимая: " + key, "bad");
+                    setState("Несовместимая: " + key, "bad");
                     return;
                 }
 
