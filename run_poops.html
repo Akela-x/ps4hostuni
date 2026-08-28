@@ -3,40 +3,40 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mustafa PS4 JB - Poops</title>
+    <title>PS4 - Exploit - Poops</title>
     <link rel="stylesheet" href="includes/style.css">
 </head>
 <body>
     <div class="container">
         <header class="site-header">
             <div class="header-content">
+                <!-- Логотип Akela из первого проекта -->
                 <h1 class="main-title">
-                    <span class="m-1">M</span><span class="m-2">u</span><span class="m-3">s</span><span class="m-4">t</span><span class="m-5">a</span><span class="m-6">f</span><span class="m-7">a</span>
-                    <span class="p-1">P</span><span class="p-2">S</span><span class="p-3">4</span>
-                    <span class="q-1">J</span><span class="q-2">B</span>
+                    <span class="p-2">В</span><span class="p-2">з</span><span class="p-2">л</span><span class="p-2">о</span><span class="p-2">м</span>
+                    <span class="p-2">-</span><span class="p-2">P</span><span class="p-2">S</span><span class="p-2">4</span>
                 </h1>
                 <div class="subtitle">Jailbreak Host</div>
                 <div class="version-badge">POOPS CHAIN</div>
             </div>
         </header>
 
-        <h3 id="UA">Poops chain</h3>
+        <h3 id="UA">Цепочка Poops</h3>
         <hr>
 
         <div class="btn-container">
-            <div id="state" class="loading">⏳ Loading poops chain...</div>
+            <div id="state" class="loading">Загрузка цепочки poops...</div>
             <pre id="out"></pre>
         </div>
 
         <footer>
-            <p class="credit">Designed by <a href="#" class="credit-link">Mustafa</a></p>
-            <p class="thanks">Special thanks to all scene developers</p>
+            <p class="credit">Специально для 4PDA Sony PlayStation 4 - Взлом</p>
+            <p class="thanks">Особая благодарность всем разработчикам сцены</p>
         </footer>
 
         <script type="module">
             import("./chain_poops.js").catch(function(e) {
                 var stateEl = document.getElementById("state");
-                stateEl.innerHTML = "❌ Failed!";
+                stateEl.innerHTML = "Неудачно!";
                 stateEl.className = "error";
             });
         </script>
